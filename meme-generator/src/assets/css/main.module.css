@@ -1,0 +1,44 @@
+main {
+    padding: 20px 36px 55px 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 60%;
+    display: grid;
+    grid-template: 35px 40px /1fr 1fr;
+    gap: 17px;
+}
+
+.form__input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    font-family: Karla;
+    font-size: 0.75rem;
+    text-indent: 10px;
+}
+
+.form__button {
+    grid-column: 1 / -1;
+    font-family: Karla;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+@media(max-width:850px){
+    .form {
+        width: 80%;
+    }
+}
+@media(max-width:630px){
+    .form {
+        width: 100%;
+    }
+}

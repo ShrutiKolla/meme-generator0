@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;800&display=swap');
+
+nav {
+    height: 65px;
+    display: flex;
+    gap: 6.69px;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+    color: #FFF;
+}
+
+.nav__title {
+    margin-right: auto;
+    font-family: Karla;
+    font-size: 1.29rem;
+    font-weight: 700;
+    letter-spacing: -1.575px;
+}
+
+nav p {
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
