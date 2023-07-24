@@ -1,18 +1,15 @@
 import React from 'react'
 
 // imgs
-import troll from '../assets/imgs/troll-face.svg';
 
 // css
 import mainCss from '../assets/css/main.module.css';
 export default function Meme(props) {
-    let imgUrl;
+    const [imgUrl, setImgUrl] = React.useState("");
     const handleClick = function() {
         const memeLen = props.memes.length;
         const idx = Math.floor(memeLen*Math.random());
-        // console.log(props.memes[idx].url);
-        imgUrl = props.memes[idx].url;
-        // console.log(typeof(imgUrl))
+        setImgUrl(props.memes[idx].url);
     }
     return (
         <main>
