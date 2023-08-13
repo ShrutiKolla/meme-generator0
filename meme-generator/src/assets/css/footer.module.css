@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;800&display=swap');
+
+footer {
+    margin-top: auto;
+    padding:5px 20px;
+    color: #FFF;
+    background-color: rgb(24, 24, 24);
+}
+
+footer p {
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+footer img {
+    width:30px;
+    margin-right: 5px;
+}
