@@ -10,7 +10,7 @@ export default function Nav() {
         <nav>
             <img src={troll}/>
             <h1 className={navCss.nav__title}>Meme Generator</h1>
-            <p>React Course - Project 3</p  >
+            {/* <p>React Course - Project 3</p  > */}
         </nav>
     );
 }
